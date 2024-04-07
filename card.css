@@ -731,6 +731,18 @@ video {
   will-change: auto;
 }
 
+@media not all and (min-width: 1280px) {
+  .max-xl\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .max-xl\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
 @media not all and (min-width: 768px) {
   .max-md\:mx-8 {
     margin-left: 2rem;
@@ -780,6 +792,7 @@ video {
   .max-md\:w-8 {
     width: 2rem;
   }
+
 
   .max-md\:w-\[24rem\] {
     width: 24rem;
